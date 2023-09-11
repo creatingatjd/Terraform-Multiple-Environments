@@ -19,6 +19,6 @@ steps:
         script: |
           # Write your commands here
           
-          terraform init
-          terraform plan
-          terraform apply --auto-approve
+          terraform init -varfile=dev/terraform.tfvars
+          terraform plan -varfile=dev/terraform.tfvars
+          terraform apply -varfile=dev/terraform.tfvars --auto-approve

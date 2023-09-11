@@ -5,9 +5,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "tf-state-dksoni"
+    bucket = "my-tf-test-bucketsiri"
     region = "us-west-2"
-    key    = "dev/terraform.tfstate"
+    key    = "terraform-dev/terraform.tfstate"
     profile = "default"
   }
 }

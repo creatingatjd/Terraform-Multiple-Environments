@@ -1,6 +1,0 @@
-ami_id            = "ami-0a606d8395a538502"
-instance_type     = "t2.micro"
-availability_zone = "us-east-2a"
-name              = "Stg_Instance"
-env               = "Stg"
-region            = "us-east-2"
